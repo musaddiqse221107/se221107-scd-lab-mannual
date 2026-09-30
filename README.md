@@ -2,7 +2,7 @@
 Student: Musaddiq Ahmed (SE221107)  
 DHA Suffa University — Java 17 / Maven / JUnit 5 / Mockito
 
-This repository implements Labs 1–12 from the supplied SCD Lab Manual as one small Task/Order Management practice project. Each lab has its own deliverable notes and the implementation remains buildable with Maven.
+This repository implements all Labs 1–12 from the supplied SCD Lab Manual as one small Task/Order Management practice project. Each lab has its own deliverable notes and the implementation remains buildable with Maven.
 
 Run locally:
 ```bash
