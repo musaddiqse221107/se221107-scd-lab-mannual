@@ -1,0 +1,2 @@
+# Lab 5 — Code Review & Static Analysis
+Findings: S1 long routine (Bloater, High); S2 unclear names (Dispensable, Medium); S3 concrete notification dependency (Coupler, High); S4 magic numbers (Dispensable, Medium); S5 generic -1 error signalling (High). Four substantive review comments address extraction, named constants, structured exceptions and boundary validation. Static analysis supports, but does not replace, human design review.

@@ -1,0 +1,2 @@
+# Lab 8 — TDD & Mocking
+The feature was designed in small red-green-refactor cycles. PricingGateway is an architectural boundary and is mocked with Mockito. Tests verify final price and the gateway interaction. Mocking is used at the external boundary rather than between ordinary internal classes.

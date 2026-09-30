@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab08;public interface PricingGateway{double currentPrice(String sku);}

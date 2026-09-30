@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab06;public final class RefactoredOrderCalculator{private static final double PREMIUM=.95,BULK=.90;public double calculate(String c,double p,int q,boolean premium){if(c==null||c.isBlank()||p<0||q<=0)throw new IllegalArgumentException("Invalid order");double s=p*q;if(premium)s*=PREMIUM;if(q>=10)s*=BULK;return s;}}

@@ -1,0 +1,2 @@
+# Lab 7 — Unit Testing Fundamentals
+Partitions: quantity <=0 invalid, 1–9 valid non-bulk, >=10 valid bulk; price <0 invalid, >=0 valid. Boundary tests cover 9, 10 and 11. The exact-10 test catches a common >10 versus >=10 bug. Run mvn test for the suite.

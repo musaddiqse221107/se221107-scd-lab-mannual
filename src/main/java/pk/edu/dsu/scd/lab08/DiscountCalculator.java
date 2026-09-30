@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab08;public final class DiscountCalculator{private final PricingGateway gateway;public DiscountCalculator(PricingGateway g){gateway=g;}public double finalPrice(String sku,int q){if(q<=0)throw new IllegalArgumentException("Quantity must be positive");double b=gateway.currentPrice(sku)*q;return q>=10?b*.9:b;}}

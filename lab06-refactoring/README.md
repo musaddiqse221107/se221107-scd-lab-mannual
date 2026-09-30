@@ -1,0 +1,2 @@
+# Lab 6 — Refactoring Legacy Code
+Four techniques: Extract Method for validation; Extract Method for subtotal calculation; Replace Magic Number with Symbolic Constant; Extract Method for discount rules. The test → refactor → test loop protects behavior. Characterization tests provide the baseline for a legacy module.
