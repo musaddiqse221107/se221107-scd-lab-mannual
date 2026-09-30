@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab04;public class OrderException extends RuntimeException{public OrderException(String m){super(m);}}

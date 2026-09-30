@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab04;public final class InsufficientStockException extends OrderException{public InsufficientStockException(String m){super(m);}}

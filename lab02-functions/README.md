@@ -1,0 +1,3 @@
+# Lab 2 — Cohesive Functions & Naming
+The original order routine mixed validation, calculation and notification. It was split into functionally cohesive routines. Names use precise verbs and meaningful nouns; no global mutable state is used.
+Peer checklist: single responsibility PASS; low coupling PASS; naming PASS; testability PASS. Remaining coupling is notification formatting, which could later be injected behind an interface.

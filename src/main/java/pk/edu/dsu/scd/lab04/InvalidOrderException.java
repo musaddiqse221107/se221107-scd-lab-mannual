@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab04;public final class InvalidOrderException extends OrderException{public InvalidOrderException(String m){super(m);}}

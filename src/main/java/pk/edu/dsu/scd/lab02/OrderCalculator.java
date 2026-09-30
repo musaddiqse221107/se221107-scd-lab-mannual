@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab02; public final class OrderCalculator{private static final double DISCOUNT=.10;private OrderCalculator(){}public static double calculateTotal(double price,int quantity){if(price<0||quantity<=0)throw new IllegalArgumentException("Invalid order");double total=price*quantity;return total>10000?total*(1-DISCOUNT):total;}}
