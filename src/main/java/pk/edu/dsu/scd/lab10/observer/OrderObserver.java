@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab10.observer;public interface OrderObserver{void onOrderCreated(String id);}

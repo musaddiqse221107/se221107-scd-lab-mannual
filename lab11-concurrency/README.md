@@ -1,0 +1,2 @@
+# Lab 11 — Concurrency & Thread Safety
+UnsafeCounter demonstrates lost updates from value++. SafeCounter uses AtomicInteger. A deadlock is avoided by global lock ordering: all threads acquire locks in the same order. Run the unsafe version five times and record actual totals from the environment; do not invent deterministic results.

@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab10.observer;import java.util.*;public final class OrderPublisher{private final List<OrderObserver> os=new ArrayList<>();public void subscribe(OrderObserver o){os.add(o);}public void publish(String id){for(OrderObserver o:os)o.onOrderCreated(id);}}

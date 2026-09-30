@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab10.strategy;public interface DiscountStrategy{double apply(double x);}

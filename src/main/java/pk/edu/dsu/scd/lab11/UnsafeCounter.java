@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab11;public final class UnsafeCounter{private int value;public void increment(){value++;}public int get(){return value;}}

@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab11;import java.util.concurrent.atomic.AtomicInteger;public final class SafeCounter{private final AtomicInteger v=new AtomicInteger();public void increment(){v.incrementAndGet();}public int get(){return v.get();}}

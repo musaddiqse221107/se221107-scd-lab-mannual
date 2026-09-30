@@ -1,0 +1,2 @@
+# Lab 10 — Design Patterns
+Strategy replaces a growing conditional with interchangeable discount algorithms. Observer decouples an order publisher from subscribers. Adding a new strategy/observer does not require changing the existing abstractions. Pattern-itis is the anti-pattern: abstraction without a real recurring design problem.

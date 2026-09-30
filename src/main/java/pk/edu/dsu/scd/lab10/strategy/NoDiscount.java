@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab10.strategy;public final class NoDiscount implements DiscountStrategy{public double apply(double x){return x;}}

@@ -1,0 +1,1 @@
+package pk.edu.dsu.scd.lab10.strategy;public final class DiscountContext{private final DiscountStrategy s;public DiscountContext(DiscountStrategy s){this.s=s;}public double calculate(double x){return s.apply(x);}}

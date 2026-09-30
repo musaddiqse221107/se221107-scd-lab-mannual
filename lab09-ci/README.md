@@ -1,0 +1,2 @@
+# Lab 9 — Build Automation & CI
+Pipeline order: checkout → Java 17 setup/cache → Maven verify. The same command is used locally and in CI. Required red/green screenshots must be captured from actual GitHub Actions runs after temporarily breaking/restoring a test; they are not fabricated here.
